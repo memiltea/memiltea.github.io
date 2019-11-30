@@ -1,0 +1,138 @@
+html, body, h1, h2, h3, h4, h5, h6, p, div, ul,li {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(235, 255, 200);
+}
+
+#wrap {
+    position: relative;
+    margin: 200px 0 0 50%;
+    left: -485px;
+    width: 950px;
+    border-radius: 45px;
+    border: 5pt dashed rgb(212,155,0);
+    background-color: rgb(254,255,243);
+}
+
+#wrap .menu {
+    position: relative;
+    margin: 3% 0 220px 5%;
+    width: 90%;
+    /*background-color: aqua;*/
+}
+
+#wrap .menu .sns {
+    position: absolute;
+    right: 0%;
+    top: 20px;
+    height: 30px;
+    /*background-color: royalblue;*/
+    text-align: right;
+}
+
+#wrap .menu .char1 {
+    position: absolute;
+    top: 20px;
+    width: 150px;
+    height: 150px;
+    /*background-color: teal;*/
+}
+
+#wrap .menu .list {
+    position: absolute;
+    top: 70px;
+    right: 0%;
+    width: 70%;
+    height: 100px;
+    /*background-color: yellow;*/
+    text-align: right;
+    line-height: 130px;
+}
+
+#wrap .menu .list .list_text {
+    color: rgb(150,130,52);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#wrap .menu .list .li1 {
+    position: absolute;
+    right: 35%;
+}
+
+#wrap .menu .list .li2 {
+    position: absolute;
+    right: 18%;
+}
+
+#banner {
+    position: relative;
+    width: 90%;
+    /*height: 300px;
+    background-color: salmon;*/
+    margin: 3%  auto;
+}
+
+#contents {
+    position: relative;
+    width: 90%;
+    /*background-color: seagreen;*/
+    margin: 3% auto;
+}
+
+#contents #gallery {
+    position: relative;
+    /*height: 1500px;
+    background-color: seagreen;*/
+}
+
+#contents #profile {
+    position: relative;
+    /*height: 1500px;
+    background-color: rebeccapurple;*/
+}
+
+#contents #contect {
+    position: relative;
+    /*height: 1500px;
+    background-color: orange;*/
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ttt {
+    position: fixed;
+    right: 0%;
+    bottom: 10%;
+    width: 50px;
+    height: 50px;
+    /*background-color: skyblue;*/
+}
