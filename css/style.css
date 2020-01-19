@@ -17,7 +17,7 @@ ul {
     list-style: none;
 }
 
-li {
+li,p {
     display: inline;
 }
 
@@ -68,7 +68,7 @@ body {
     top: 70px;
     right: 0%;
     width: 70%;
-    height: 100px;
+    height: 100px;-
     /*background-color: yellow;*/
     text-align: right;
     line-height: 130px;
@@ -107,14 +107,106 @@ body {
 
 #contents #gallery {
     position: relative;
-    /*height: 1500px;
-    background-color: seagreen;*/
+    /*background-color: seagreen;*/
 }
 
-#contents #profile {
+#contents #gallery .gs {
     position: relative;
-    /*height: 1500px;
-    background-color: rebeccapurple;*/
+    text-align: center;
+}
+
+#contents #gallery .gwrap {
+    position: relative;
+    left: 2.5%;
+    top: 75px;
+    height: 650px;
+}
+
+#contents #gallery .gwrap .g1 {
+    position: absolute;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g2 {
+    position: absolute;
+    left: 25%;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g3 {
+    position: absolute;
+    left: 50%;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g4 {
+    position: absolute;
+    left: 75%;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g5 {
+    position: absolute;
+    left: 0%;
+    top: 285px;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g6 {
+    position: absolute;
+    left: 25%;
+    top: 285px;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g7 {
+    position: absolute;
+    left: 50%;
+    top: 285px;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #gallery .gwrap .g8 {
+    position: absolute;
+    left: 75%;
+    top: 285px;
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+}
+
+#contents #about {
+    position: relative;
+    height: 250px;
+    /*background-color: rebeccapurple;*/
+}
+
+#contents #about .atext {
+    position: absolute;
+    background-color: darkblue;
+    width: 60%;
+}
+
+#contents #about .apic {
+    position: absolute;
+    background-color: darkblue;
+    width: 35%;
+    height: 250px;
+    right: 2.5%;
 }
 
 #contents #contect {
@@ -131,7 +223,7 @@ body {
 #ttt {
     position: fixed;
     right: 0%;
-    bottom: 10%;
+    bottom: 7%;
     width: 50px;
     height: 50px;
     /*background-color: skyblue;*/
