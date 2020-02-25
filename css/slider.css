@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 600px;
+    padding: 0;
+    margin: 0 0;
+}
+
+.slick-arrow {
+    z-index: 100;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: rgba(125, 90, 42, 0.7);
+}
+

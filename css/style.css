@@ -23,11 +23,16 @@ li,p {
 
 a {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    background-color: rgb(235, 255, 200);
+    background-color: rgb(183, 149, 112);
+    background-color: rgb(216, 213, 112);
 }
+
+
 
 #wrap {
     position: relative;
@@ -35,27 +40,46 @@ body {
     left: -485px;
     width: 950px;
     border-radius: 45px;
-    border: 5pt dashed rgb(212,155,0);
+    border: 2.5pt dashed rgb(133,90,52);
     background-color: rgb(254,255,243);
 }
 
-#wrap .menu {
+
+.menu {
     position: relative;
     margin: 3% 0 220px 5%;
     width: 90%;
     /*background-color: aqua;*/
 }
 
-#wrap .menu .sns {
+
+.menu .sns {
     position: absolute;
     right: 0%;
-    top: 20px;
-    height: 30px;
+    top: 15px;
+    width: 100px;
+    height: 40px;
     /*background-color: royalblue;*/
-    text-align: right;
 }
 
-#wrap .menu .char1 {
+.sns .lnkt {
+    position: absolute;
+    right: 30%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.sns .lnki {
+    position: absolute;
+    right: -20%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.menu .char1 {
     position: absolute;
     top: 20px;
     width: 150px;
@@ -63,32 +87,89 @@ body {
     /*background-color: teal;*/
 }
 
-#wrap .menu .list {
+
+.menu .list {
     position: absolute;
     top: 70px;
     right: 0%;
     width: 70%;
-    height: 100px;-
+    height: 100px;
     /*background-color: yellow;*/
     text-align: right;
-    line-height: 130px;
+    line-height: 100px;
 }
 
-#wrap .menu .list .list_text {
-    color: rgb(150,130,52);
+
+.list .link {
+    display: inline-block;
     font-family: sans-serif;
     font-size: 16px;
+    width: 80px;
+    height: 90px;
 }
 
-#wrap .menu .list .li1 {
+.list .link1 {
     position: absolute;
-    right: 35%;
+    right: 38.5%;
+    width: 100px;
+    height: 70px;
+    color: rgb(150,130,52);
 }
 
-#wrap .menu .list .li2 {
-    position: absolute;
-    right: 18%;
+.list .link1:hover {
+    color: rgb(120,90,42);
 }
+
+.link1:hover .gallery_img {
+    background-image: url(../img/fhsrhtrh.PNG);
+}
+
+.list .li2 {
+    position: absolute;
+    right: 20%;
+    height: 150px;
+}
+
+.list .link2 {
+    position: absolute;
+    right: 20%;
+    width: 100px;
+    height: 150px;
+    color: rgb(150,130,52);
+}
+
+
+.list .link2:hover {
+    color: rgb(120,90,42);
+}
+
+.list .li3 {
+    position: absolute;
+    right: 0%;
+    height: 150px;
+}
+
+.link3 {
+    position: absolute;
+    right: 0%;
+    width: 100px;
+    height: 150px;
+    color: rgb(150,130,52);
+}
+
+.contect_img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url();
+    z-index: 10;
+}
+
+.link3:hover{
+    color: rgb(120,90,42);
+    background-image: url();
+}
+
 
 #banner {
     position: relative;
@@ -98,6 +179,11 @@ body {
     margin: 3%  auto;
 }
 
+#banner .swipe {
+    border: 1px solid rgb(98, 71, 75);
+    border-radius: 5px;
+}
+
 #contents {
     position: relative;
     width: 90%;
@@ -105,88 +191,41 @@ body {
     margin: 3% auto;
 }
 
-#contents #gallery {
-    position: relative;
-    /*background-color: seagreen;*/
-}
-
-#contents #gallery .gs {
-    position: relative;
+#glogo {
     text-align: center;
+    padding: 10px 0 20px;
 }
 
-#contents #gallery .gwrap {
-    position: relative;
-    left: 2.5%;
-    top: 75px;
-    height: 650px;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
-#contents #gallery .gwrap .g1 {
-    position: absolute;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
+.gallery .gs {
+    flex: 49%;
+    max-width: 50%;
+    padding: 0;
 }
 
-#contents #gallery .gwrap .g2 {
-    position: absolute;
-    left: 25%;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
+.gallery .gs img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
-#contents #gallery .gwrap .g3 {
-    position: absolute;
-    left: 50%;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
+@media screen and (max-width: 800px) {
+    .gs {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
-#contents #gallery .gwrap .g4 {
-    position: absolute;
-    left: 75%;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
-}
-
-#contents #gallery .gwrap .g5 {
-    position: absolute;
-    left: 0%;
-    top: 285px;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
-}
-
-#contents #gallery .gwrap .g6 {
-    position: absolute;
-    left: 25%;
-    top: 285px;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
-}
-
-#contents #gallery .gwrap .g7 {
-    position: absolute;
-    left: 50%;
-    top: 285px;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
-}
-
-#contents #gallery .gwrap .g8 {
-    position: absolute;
-    left: 75%;
-    top: 285px;
-    height: 250px;
-    width: 20%;
-    background-color: aqua;
+@media screen and (max-width: 400px) {
+    .gs {
+        flex:100%;
+        max-width: 100%
+    }
 }
 
 #contents #about {
@@ -195,13 +234,17 @@ body {
     /*background-color: rebeccapurple;*/
 }
 
-#contents #about .atext {
-    position: absolute;
-    background-color: darkblue;
-    width: 60%;
+.as {
+    text-align: center;
+    padding: 10px 0 20px;
 }
 
-#contents #about .apic {
+.atext {
+    position: absolute;
+    width: 53%;
+}
+
+.apic {
     position: absolute;
     background-color: darkblue;
     width: 35%;
@@ -211,6 +254,7 @@ body {
 
 #contents #contect {
     position: relative;
+    padding: 50px 0 0 0;
     /*height: 1500px;
     background-color: orange;*/
 }

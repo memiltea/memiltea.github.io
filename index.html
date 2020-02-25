@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Minty Melody</title>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" media="screen" />
+    <link rel="stylesheet" href="PhotoSwipe-master/dist/photoswipe.css">
+    <link rel="stylesheet" href="PhotoSwipe-master/dist/default-skin/default-skin.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="slick/slick.min.js"></script> 
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -14,97 +22,143 @@
 
     <section>
         <div id=wrap>
+
             <div class=menu>
                 <h1 class=char1>
                     <a href="https://www.minty.blue/">
-                      <img src="l_cr.png" alt="logo" width="75px" height="75px">
+                      <img src="img/l_cr.png" alt="logo" width="75px" height="75px">
                     </a>
                  </h1>
+
              <div class=sns>
                  <ul>
                      <li>
-                         <a class=twitter href="https://twitter.com/dingy_hi" target="_blank">
+                         <a class=lnkt href="https://twitter.com/dingy_hi" target="_blank">
                              <span>
-                                <img src="t_cr.png" width="30px" height="30px" alt="Twitter">
+                                <img src="img/t_cr.png" width="30px" height="30px" alt="Twitter">
                              </span>
                          </a>
                      </li>
                      <li>
-                        <a class=insta href=https://www.instagram.com/memiltea/ target="_blank">
+                        <a class=lnki href=https://www.instagram.com/memiltea/ target="_blank">
                             <span>
-                                <img src="i_cr.png" width="30px" height="30px" alt="Instagram">
+                                <img src="img/i_cr.png" width="30px" height="30px" alt="Instagram">
                             </span>
                         </a>
                      </li>
                  </ul>
              </div>
+
               <div class=list>
                 <ul>
                     <li class="li1">
-                        <a href="#gallery" target="_self">
-                            <span class="gallery_img">
-                                <img src="#" width="20px" height="20px" alt="">
+                        <a class="link1" href="#glogo" target="_self">
+                            <span >
+                                <img class="gallery_img" src="img/44873217_p0.jpg" width="20px" height="20px" alt="">
                             </span>
-                            <span class="list_text">
                                 Gallery
-                            </span>
                         </a>
                     </li>
                     <li class="li2">
-                        <a href="#profile" target="_self">
+                        <a class="link2" href="#about" target="_self">
                             <span class="profile_img">
                                 <img src="#" width="20px" height="20px" alt="">
                             </span>
-                            <span class="list_text">
                                 About
-                            </span>
                         </a>
                     </li>
                     <li class="li3">
-                        <a href="#contect" target="_self">
-                            <span class="contect_img">
-                                <img src="#" width="20px" height="20px" alt="">
-                            </span>
-                            <span class="list_text">    
-                                Contect
-                            </span>
+                        <a class="link3" href="#contect" target="_self">
+                            <div class="contect_img"></div> 
+                            Contect
                         </a>
                     </li>
                 </ul>
              </div>
             </div>
+
         <div id=banner>
-            <div class=div11>
-                <p>
-                    工事中
-                </P>
+            <div class=swipe>
+                <ul class="slider">
+                    <li><img src="img/fhsrhtrh.PNG"></a></li>
+                    <li><img src="img/ryeetry.PNG"></a></li>
+                </ul>
             </div>
         </div>
+
+
         <div id=contents>
-            <div id=gallery>
+            <div id=glogo><img src="#" alt="gallery"></div>
+            <div class="gallery">
                 <div class=gs>
-                    <p>gallery</p>
+                    <figure class="images">
+                        <a href="img/gallery linji1_cr.png" data-size="900x600">
+                            <img src="img/gallery linji1_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji2_cr.png" data-size="900x600">
+                            <img src="img/gallery linji2_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji1_cr.png" data-size="900x600">
+                            <img src="img/gallery linji1_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji2_cr.png" data-size="900x600">
+                            <img src="img/gallery linji2_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
                 </div>
-                <div class=gwrap>
-                    <div class=g1></div>
-                    <div class=g2></div>
-                    <div class=g3></div>
-                    <div class=g4></div>
-                    <div class=g5></div>
-                    <div class=g6></div>
-                    <div class=g7></div>
-                    <div class=g8></div>
+                <div class=gs>
+                    <figure class="images">
+                        <a href="img/gallery linji2_cr.png" data-size="900x600">
+                            <img src="img/gallery linji2_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji1_cr.png" data-size="900x600">
+                            <img src="img/gallery linji1_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji2_cr.png" data-size="900x600">
+                            <img src="img/gallery linji2_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
+                    <figure class="images">
+                        <a href="img/gallery linji1_cr.png" data-size="900x600">
+                            <img src="img/gallery linji1_cr.png" alt="description">
+                        </a>
+                        <figcaption>description</figcaption>
+                    </figure>
                 </div>
+
             </div>
+
             <div id=about>
                 <div class=as>
                     <p>About</p>
                 </div>
                <div class=atext>
-                    <p>c</p>
+                    <p>
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキスト
+                    </p>
                 </div>
                 <div class=apic></div>
             </div>
+
             <div id=contect>
                 <div class=cs>
                     Contect
@@ -130,5 +184,76 @@
     <footer>
         <p id=footer> © 2019 All rights reserved.</p>
     </footer>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="PhotoSwipe-master/dist/photoswipe.min.js"></script> 
+    <script src="PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
+    <script src="js/photoswipe1.js"></script>
 </body>
 </html>
